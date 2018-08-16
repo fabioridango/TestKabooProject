@@ -1,0 +1,49 @@
+
+
+Scenario -1: first step of the signup user, terms and conditions label 
+
+1)In the Kaboo Home page the user selects "CREATE ACCOUNT".
+2)The first step of the Register Account page is displayed.
+3)The user fills the fields and selects all the checkbox until "TERMS & CONDITIONS" link.
+4)The user selects the link and is redirects to "TERMS AND CONDITIONS OF USE OF KABOO.COM"
+page.
+5)The user scroll until to the end of the page and selects "I AGREE" button.
+6)The user is redirected to first step page but all the actions did at point 3 have been lost.
+7)Have to be guaranteed in the Kaboo staging web page the persistent data between the redirects?
+
+
+
+Scenario -2: first step of the signup user, receive information labels
+
+1)In the Kaboo Home page the user selects "CREATE ACCOUNT".
+2)The first step of the Register Account page is displayed.
+3)The user fills the fields and selects all the checkbox. 
+4)Into the specific the user can selects both the following checkbox labels:
+
+"Doesn't WISH TO RECEIVE INFORMATION ABOUT YOUR PRODUCTS OR SERVICES, BONUSES AND PROMOTIONS"
+
+"WISH TO RECEIVE INFORMATION ABOUT YOUR PRODUCTS OR SERVICES, BONUSES AND PROMOTIONS", 
+
+5)the selection of one of them should not have to exclude the selection of the other? (scenario_2)  
+
+
+Scenario -3: first step of the signup user, privacy notice
+
+1)In the Kaboo Home page the user selects "CREATE ACCOUNT".
+2)The first step of the Register Account page is displayed.
+3)The user fills the fields and select all the checkbox. 
+4)the user selects the "PRIVACY NOTICE" label 
+5)The user is redirected to privacy page.
+6)the page is empty excepts a button. (scenario_3) 
+7)the user after selected the button is redirects to first step page.
+8)the actions did at point 3 have been lost.
+
+
+Scenario -4: first step of the signup user, cookie notice
+
+1)In the Kaboo Home page the user selects "CREATE ACCOUNT".
+2)The first step of the Register Account page is displayed.
+3)The user fills the fields.
+4)The user selects the "COOKIE NOTICE" label.
+5)the url of the current page changes but the user remains in the page at point 2. (scenario_4) 
+
